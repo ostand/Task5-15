@@ -1,2 +1,2 @@
 # Task5-15
-![alt text](https://m.vk.com/photo392400344_457244062?list=mail343173&z=photo392400344_457244062%2Fmail343173)
+![alt text](https://disk.yandex.ru/client/disk?idApp=client&dialog=slider&idDialog=%2Fdisk%2F1kUkRemR12k.jpg)
