@@ -6,11 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
         int s = readS();
-        if (s >= 2 && s % 2 == 0) {
-            printRhombus(s);
-        } else {
-            printErrorCheck();
-        }
+        s = checkCondition(s);
+        printRhombus(s);
     }
 
     static void printRhombus(int s) {
@@ -48,8 +45,17 @@ public class Main {
         }
     }
 
-    static void printErrorCheck() {
-        System.out.println("Error! S must be more than or equal to 2 and be even");
+
+    static void printErrorCheckResult() {
+        System.out.println("Error! S must be more than or equal to 2 and be even. Try again!");
+    }
+
+    static int checkCondition(int s) {
+        while (s < 2 && s % 2 != 0) {
+            printErrorCheckResult();
+            s = readS();
+        }
+        return s;
     }
 
     static int readS() {
